@@ -1,7 +1,13 @@
 extends /../../../views/layout
   
 
+block head
+
+  link(rel='stylesheet', href='/stylesheets/login.css')
+
+
 block content
+  
   form(action='/sessions', method='post')
     label
       | Username
